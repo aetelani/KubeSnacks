@@ -20,6 +20,7 @@ minikube {start, stop, delete}
 ```
 ## Problems
 host-only-cidr reserved on re-start. Fix: reboot, or update ip virtualbox, minikube startup parameters, see related bug <sup>3</sup>
+
 ---
 1: https://cloud.google.com/sdk/docs/quickstart-debian-ubuntu</br>
 2: https://github.com/kubernetes/minikube/releases</br>
