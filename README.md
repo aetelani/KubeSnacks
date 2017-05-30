@@ -13,7 +13,7 @@ OS: Debian Jessie
 ## Commands
 ```
 eval $(minikube docker-env); docker ps #Docker uses Kubernetes env
-eval $(minikube docker-env -d); docker ps #kubernetes env disabled.
+eval $(minikube docker-env -u); docker ps #kubernetes env unset.
 minikube {start, stop, delete}
 ```
 ## Problems
