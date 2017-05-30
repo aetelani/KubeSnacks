@@ -10,7 +10,7 @@ OS: Debian Jessie Backports <sup>4</sup>
 * Enable Virtualization BIOS extensions
 * Install Docker. (rkt is supported too but Docker is default): ```sudo apt install docker-ce #fresh from backports```
 * Install build essentials and headers: ```sudo apt install -y build-essential linux-headers-$(uname -r|sed 's,[^-]*-[^-]*-,,')```
-* Install VirtaulBox >4. VirtualBox by default, kvm works as well. ```sudo apt install -y virtualbox-5.1```
+* Install VirtualBox >4. VirtualBox by default, kvm works as well. ```sudo apt install -y virtualbox-5.1```
 * Compile VirtualBox kernel additions: ```sudo /sbin/vboxconfig```
 * Install GCloud sdk: Debian repo works fine <sup>1</sup>
 * Install kubectl: ```sudo apt install kubectl```
