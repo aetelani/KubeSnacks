@@ -1,6 +1,7 @@
 # KubeSnacks
 Kubernetes notes
 # First steps
+Easy way to get things up and running.
 ## Installing development environment
 OS: Debian Jessie Backports <sup>4</sup>
 * Update kernel. Enable KVM if using kvm for virtualization.
