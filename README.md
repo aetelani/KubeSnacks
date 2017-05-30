@@ -10,8 +10,10 @@ OS: Debian Jessie
 * Install GCloud sdk: Debian repo works fine
 * install minikube: eg. deb package
 ## Commands
+```
 eval $(minikube docker-env); docker ps #Docker uses Kubernetes env
 eval $(minikube docker-env -d); docker ps #kubernetes env disabled.
 minikube {start, stop, delete}
+```
 ## Problems
 host-ip cidr reserved on re-start. Fix: reboot, or update ip virtualbox, minikube startup parameters, see related bug
