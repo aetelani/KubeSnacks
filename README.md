@@ -7,8 +7,12 @@ OS: Debian Jessie
 * Enable Virtualization BIOS extensions
 * Install Docker
 * Install VirtaulBox >4. VirtualBox by default, kvm works as well.
-* Install GCloud sdk: Debian repo works fine
-* install minikube: eg. deb package
+* Install GCloud sdk: Debian repo works fine <sup>1</sup>
+* Install kubectl: ```sudo apt install kubectl```
+* install minikube: eg. deb package <sup>2</sup>
+
+1: https://cloud.google.com/sdk/docs/quickstart-debian-ubuntu
+2: https://github.com/kubernetes/minikube/releases
 ## Commands
 ```
 eval $(minikube docker-env); docker ps #Docker uses Kubernetes env
