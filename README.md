@@ -11,7 +11,7 @@ OS: Debian Jessie
 * Install kubectl: ```sudo apt install kubectl```
 * install minikube: eg. deb package <sup>2</sup>
 
-1: https://cloud.google.com/sdk/docs/quickstart-debian-ubuntu
+1: https://cloud.google.com/sdk/docs/quickstart-debian-ubuntu</br>
 2: https://github.com/kubernetes/minikube/releases
 ## Commands
 ```
