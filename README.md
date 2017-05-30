@@ -6,7 +6,9 @@ OS: Debian Jessie
 * Update kernel. Enable KVM if using kvm for virtualization.
 * Enable Virtualization BIOS extensions
 * Install Docker. (rkt is supported too but Docker is default)
+* Install build essentials and headers: ```sudo apt install -y build-essential linux-headers-$(uname -r)```
 * Install VirtaulBox >4. VirtualBox by default, kvm works as well.
+* Compile VirtualBox kernel additions: ```sudo /sbin/vboxconfig```
 * Install GCloud sdk: Debian repo works fine <sup>1</sup>
 * Install kubectl: ```sudo apt install kubectl```
 * install minikube: eg. deb package <sup>2</sup>
