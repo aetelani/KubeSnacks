@@ -4,7 +4,7 @@ Kubernetes notes
 Easy way to get things up and running.
 ## Installing development environment
 OS: Debian Jessie Backports <sup>4</sup>
-* Enable Backports: ```sudo deb http://ftp.debian.org/debian jessie-backports main contrib```
+* Enable Backports: ```sudo deb http://ftp.debian.org/debian jessie-backports main contrib non-free #use closest mirror```
 * Update packages: ```sudo apt update && sudo apt upgrade -y```
 * Update kernel. Enable KVM if using kvm for virtualization.
 * Enable Virtualization BIOS extensions
